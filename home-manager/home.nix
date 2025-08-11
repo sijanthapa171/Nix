@@ -9,8 +9,8 @@
     ];
 
   home = {
-    username = "serpentian";
-    homeDirectory = "/home/serpentian";
+    username = "auth";
+    homeDirectory = "/home/auth";
   };
 
   home.packages = with pkgs; [
