@@ -66,7 +66,7 @@
     };
 
     input = {
-      kb_layout = "us";
+      kb_layout = "us,ru";
       kb_options = "grp:win_space_toggle";
       follow_mouse = true;
     };
@@ -75,6 +75,7 @@
       # keep floating dimentions while tiling
       pseudotile = true;
       preserve_split = true;
+      force_split = 2;
     };
 
     misc = {
