@@ -1,3 +1,4 @@
+
 { config, pkgs, ... }:
 
 {
@@ -8,6 +9,7 @@
       ./hardware/network.nix
       ./hardware/graphic.nix
       ./hardware/sound.nix
+      ./hardware/mouse.nix
       ./hardware/boot.nix
       # Window manager or desktop environment.
       ./desktop/hyprland.nix
@@ -16,7 +18,6 @@
   # Network.
   networking.hostName = "alfheim";
   networking.dhcpcd.enable = true;
-
 
   # Time.
   time.timeZone = "Europe/Moscow";
