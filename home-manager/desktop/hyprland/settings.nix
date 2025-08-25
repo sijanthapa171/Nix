@@ -14,6 +14,7 @@
     exec-once = [
       "waybar"
       "swww init; swww img ~/.dotfiles/non-nix/wallpapers/evening-sky.png"
+      "input-remapper-control --command autoload"
     ];
     
     general = {
@@ -65,7 +66,7 @@
     };
 
     input = {
-      kb_layout = "us,ru";
+      kb_layout = "us";
       kb_options = "grp:win_space_toggle";
       follow_mouse = true;
     };
