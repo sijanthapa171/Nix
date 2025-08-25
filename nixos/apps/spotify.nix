@@ -27,3 +27,4 @@
   # Spotifyd systemd service fails to start with "Unable to autolaunch a
   # dbus-daemon without a $DISPLAY for X11" error.
 }
+
