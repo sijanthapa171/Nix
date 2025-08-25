@@ -27,9 +27,9 @@
   };
 
   # Users. 
-  users.users.auth = {
+  users.users.serpentian = {
     isNormalUser = true;
-    description = "auth";
+    description = "serpentian";
     extraGroups = [ "wheel" ];
   };
 

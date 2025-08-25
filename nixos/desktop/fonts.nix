@@ -8,4 +8,3 @@
     # noto-fonts-cjk
   ];
 }
-

@@ -1,14 +1,19 @@
 { config, pkgs, ... }:
 
 {
+  home.packages = with pkgs; [
+    swww
+  ];
+
   wayland.windowManager.hyprland.settings = {
     monitor = [
       "DP-1, 3440x1440@120, 0x0, 1"
-      "HDMI-A-1,1920x1080@120,3440x100, 0.83"
+      "HDMI-A-1,1920x1080@120,3440x100, 1"
     ];
 
     exec-once = [
       "waybar"
+      "swww init; swww img ~/.dotfiles/non-nix/wallpapers/evening-sky.png"
     ];
     
     general = {

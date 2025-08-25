@@ -18,13 +18,16 @@ in
   imports = 
     [
       ./desktop/hyprland
+      ./apps/w3m.nix
+      ./apps/kitty.nix
       ./apps/git.nix
+      ./apps/btop.nix
       ./shell/zsh.nix
     ];
 
   home = {
-    username = "auth";
-    homeDirectory = "/home/auth";
+    username = "serpentian";
+    homeDirectory = "/home/serpentian";
   };
 
   home.packages = with pkgs; [

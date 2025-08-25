@@ -22,7 +22,7 @@
     # Standalone home-manager configuration entrypoint.
     # 'home-manager switch --flake .#your-username@your-hostname'
     homeConfigurations = {
-      "auth" = home-manager.lib.homeManagerConfiguration {
+      "serpentian" = home-manager.lib.homeManagerConfiguration {
         pkgs = nixpkgs.legacyPackages.x86_64-linux;
         extraSpecialArgs = {inherit inputs outputs;};
         modules = [./home-manager/home.nix];
